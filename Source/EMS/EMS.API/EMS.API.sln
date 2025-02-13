@@ -1,0 +1,80 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33530.505
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.API", "EMS.API.csproj", "{DC5E7646-2D3F-462F-982C-144A4E532164}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.DAL", "..\EMS.DAL\EMS.DAL.csproj", "{8374E296-64D0-4675-B493-BD986A6405BD}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.DataAccess", "..\EMS.DataAccess\EMS.DataAccess.csproj", "{251D9A35-4468-46DB-B6E8-67DA4BCDBC12}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.DTO", "..\EMS.DTO\EMS.DTO.csproj", "{92F4D2D5-A0CB-4923-818B-2EF93EB28275}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Mapper", "..\EMS.Mapper\EMS.Mapper.csproj", "{D97F34D3-0C8E-453D-B3AC-CE6FB74F2861}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1F49D329-5BE4-424C-AD82-94FCF2187C1E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "EMS.Helper", "..\EMS.Helper\EMS.Helper.csproj", "{D40BF679-593B-4730-B089-FB88DD08FEF9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC5E7646-2D3F-462F-982C-144A4E532164}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC5E7646-2D3F-462F-982C-144A4E532164}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC5E7646-2D3F-462F-982C-144A4E532164}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC5E7646-2D3F-462F-982C-144A4E532164}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8374E296-64D0-4675-B493-BD986A6405BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8374E296-64D0-4675-B493-BD986A6405BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8374E296-64D0-4675-B493-BD986A6405BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8374E296-64D0-4675-B493-BD986A6405BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{251D9A35-4468-46DB-B6E8-67DA4BCDBC12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{251D9A35-4468-46DB-B6E8-67DA4BCDBC12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{251D9A35-4468-46DB-B6E8-67DA4BCDBC12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{251D9A35-4468-46DB-B6E8-67DA4BCDBC12}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92F4D2D5-A0CB-4923-818B-2EF93EB28275}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92F4D2D5-A0CB-4923-818B-2EF93EB28275}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92F4D2D5-A0CB-4923-818B-2EF93EB28275}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92F4D2D5-A0CB-4923-818B-2EF93EB28275}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D97F34D3-0C8E-453D-B3AC-CE6FB74F2861}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D97F34D3-0C8E-453D-B3AC-CE6FB74F2861}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D97F34D3-0C8E-453D-B3AC-CE6FB74F2861}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D97F34D3-0C8E-453D-B3AC-CE6FB74F2861}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D40BF679-593B-4730-B089-FB88DD08FEF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D40BF679-593B-4730-B089-FB88DD08FEF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D40BF679-593B-4730-B089-FB88DD08FEF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D40BF679-593B-4730-B089-FB88DD08FEF9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {221CED5A-E27A-4E7A-8570-34BDEE408095}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 7
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://192.168.2.207:8080/tfs/ems
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = EMS.API.csproj
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\EMS.DAL\\EMS.DAL.csproj
+		SccProjectName2 = ../EMS.DAL
+		SccLocalPath2 = ..\\EMS.DAL
+		SccProjectUniqueName3 = ..\\EMS.DataAccess\\EMS.DataAccess.csproj
+		SccProjectName3 = ../EMS.DataAccess
+		SccLocalPath3 = ..\\EMS.DataAccess
+		SccProjectUniqueName4 = ..\\EMS.DTO\\EMS.DTO.csproj
+		SccProjectName4 = ../EMS.DTO
+		SccLocalPath4 = ..\\EMS.DTO
+		SccProjectUniqueName5 = ..\\EMS.Mapper\\EMS.Mapper.csproj
+		SccProjectName5 = ../EMS.Mapper
+		SccLocalPath5 = ..\\EMS.Mapper
+		SccProjectUniqueName6 = ..\\EMS.Helper\\EMS.Helper.csproj
+		SccProjectName6 = ../EMS.Helper
+		SccLocalPath6 = ..\\EMS.Helper
+	EndGlobalSection
+EndGlobal
